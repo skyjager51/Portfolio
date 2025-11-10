@@ -9,7 +9,6 @@ import "../style/App.css";
 function App() {
   return (
     <div>
-    {/* lorenzofaccio@Portfolio ~ % */}
       <Header />
 
       <Routes>
