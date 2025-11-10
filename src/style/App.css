@@ -140,3 +140,17 @@ body{
   flex-direction: row;
   gap: 5%;
 }
+
+.cert-card{
+  height: 10%;
+  width: 20%;
+  background-color: rgb(31, 31, 31);
+  padding: 1%;
+  border-radius: 11px;
+}
+
+.cert-image{
+  width: 100%;
+  height: 40%;
+  padding: 2% 0% 2% 0%;
+}

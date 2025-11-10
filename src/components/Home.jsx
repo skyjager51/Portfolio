@@ -2,6 +2,7 @@ import React from "react";
 import FrontStack from "./FrontStack";
 import About from "./About";
 import HomeProjects from "./HomeProjects";
+import HomeCertifications from "./HomeCeritifications";
 
 function Home(){
     return(
@@ -9,6 +10,7 @@ function Home(){
             <FrontStack></FrontStack>
             <About></About>
             <HomeProjects></HomeProjects>
+            <HomeCertifications></HomeCertifications>
         </div>
     );
 }
