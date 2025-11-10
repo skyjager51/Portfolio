@@ -1,0 +1,103 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0% 10% 0% 5%;
+  color: white;
+}
+
+.routes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  gap: 15%;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+li{
+  color: white;
+}
+
+li:hover{
+  color: #a9a8ff;
+}
+
+hr{
+  margin: 0% 2% 0% 2%;
+  border: 0.5px solid rgb(44, 44, 44);
+}
+
+.phrase{
+  color: rgb(169, 168, 255);
+}
+
+.name{
+  font-size: 90px;
+}
+
+body{
+  font-family:sans-serif;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.front-stack{
+  margin: 6% 6% 6% 6%;
+  width: 90%;
+}
+
+.text{
+  margin-top: 2%;
+}
+
+.fade{
+  font-weight: 200;
+  opacity: 0.6;
+}
+
+.passions{
+  font-weight: 200;
+  opacity: 0.6;
+}
+.button-container{
+  display: flex;
+  flex-direction: row;
+  gap: 2.5%;
+  margin-top: 2.5%;
+}
+.button{
+  background-color: rgb(31, 31, 31);
+  color: white;
+  border: 1px solid rgb(31, 31, 31);
+  border-radius: 10%;
+  padding: 6px 8px 6px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
+}
+
+.button:hover{
+  background-color: rgb(59, 59, 59);
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
+}
+
+.info{
+  width: 60%;
+}
+
+.image{
+  height: 250px;
+  border-radius: 15%;
+  margin-left: 20%;
+}
+
