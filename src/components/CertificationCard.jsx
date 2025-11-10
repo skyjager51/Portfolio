@@ -1,12 +1,13 @@
 import React from "react";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function CertificationCard(props){
     return(
         <div className="cert-card">
             <p>{props.name}</p>
-            <hr />
-            <div>
-                <img className="cert-image" src={props.imgUrl} alt="certification image" />
+            <a className="cert-link" target="_blank" href={props.link}><FaExternalLinkAlt/></a>
+            <div className="img-cert-container">
+                {props.img}
             </div>
         </div>
     );
