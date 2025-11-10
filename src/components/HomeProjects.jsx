@@ -15,7 +15,7 @@ function HomeProjects(){
                     description="This is the project my team and I designed for the Amazon University Engagement programme. 
                     It’s an IaC scanner that analyses your JSON for threats using a user-friendly interface instead of a 
                     complex CLI. Simply drag and drop your files, and everything will be automatically done."
-                    stack={["Python", "React", "Postman", "Flask"]}
+                    stack={["Python", "React", "Postman", "Flask", "REST"]}
                     />
 
                 <ProjectCard 
@@ -23,7 +23,7 @@ function HomeProjects(){
                     name="Note Web App"
                     description="A lightweight and responsive full-stack note application built with Spring Boot and Thymeleaf. 
                     It allows users to create, view, and manage personal notes through a clean web interface."
-                    stack={["Java", "SpringBoot", "MySQl", "Postman"]}
+                    stack={["Java", "SpringBoot", "MySQl", "Postman", "REST", "Js", "Html"]}
                 />
             </div>
         </div>
