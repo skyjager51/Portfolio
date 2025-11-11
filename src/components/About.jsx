@@ -20,7 +20,7 @@ function About(){
                     modelling and printing and really relish any kind of manual work.
                 </p>
 
-                <img className="image" src="../../public/Immagine_lorenzo.jpeg" alt="image of lorenzp" />
+                <img className="image" src="../../public/Immagine_lorenzo.jpeg" alt="image of lorenzo" />
             </div>
             
         </div>
