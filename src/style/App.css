@@ -169,6 +169,10 @@ body{
   color: white;
 }
 
+.cert-link:hover{
+  color: rgb(88, 88, 88);
+}
+
 .cert-stack{
   display: flex;
   flex-direction: row;
