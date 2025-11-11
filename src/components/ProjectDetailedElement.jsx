@@ -1,26 +1,37 @@
 import React from "react";
+import { FaGripLinesVertical } from "react-icons/fa";
 
 function ProjectDetailedElement(props){
     return(
         <div className="project-element">
             <div className="project-image">
-                <img src={props.img} alt="" />
+                <img className="project-image" src={props.img} alt="" />
             </div>
-            <h1>{props.title}</h1>
+            <div className="project-text">
+                <h1>{props.title}</h1>
 
-            <p>{props.objective}</p>
+                <hr />
 
-            <div className="stack-class-holder">
-                    {props.stack.map(x => <p className="stackName fade">{x}</p>)}
+                <p><FaGripLinesVertical color="#a9a8ff"/> Objective</p>
+                <p className="fade">{props.objective}</p>
+
+                <p><FaGripLinesVertical color="#a9a8ff"/> Tech Stack</p> 
+                <div className="stack-class-holder">
+                        {props.stack.map(x => <p className="stackName fade">{x}</p>)}
+                </div>
+
+                <p><FaGripLinesVertical color="#a9a8ff"/> My Role</p>
+                <p className="fade">{props.role}</p>
+
+                <p><FaGripLinesVertical color="#a9a8ff"/> Technical Hilights</p>
+                <p className="fade">{props.techHilights}</p>
+
+                <p><FaGripLinesVertical color="#a9a8ff"/> Outcome</p> 
+                <p className="fade">{props.outcome}</p>
+
+                <p><FaGripLinesVertical color="#a9a8ff"/> Link</p> 
+                <a className="project-link" href={props.link}>Visit the GitHub repo here</a>
             </div>
-
-            <p>{props.role}</p>
-
-            <p>{props.techHilights}</p>
-
-            <p>{props.outcome}</p>
-
-            <a href={props.link}>Visit the GitHub repo here</a>
 
         </div>
     );
