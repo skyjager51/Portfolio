@@ -75,8 +75,32 @@ function Projects(){
 
                 outcome="Gained a comprehensive, practical understanding of user authentication and authorization using 
                  Spring Security. Significantly improved skills in database modeling and handling relationship interactions 
-                 within the Spring/JPA ecosystem"
+                 within the Spring/JPA ecosystem."
                 link="https://github.com/skyjager51/Web-Note-Application"
+            />
+
+
+            <ProjectDetailedElement
+                img="../../public/home_media_player.png"
+                title="Home Media Player"
+                stack={["Java", "SpringBoot", "Js", "Html", "CSS"]}
+                objective="To create a lightweight, self-hosted application that allows users to stream MP4 video files
+                 over their local home Wi-Fi network directly from a server."
+
+                role="Designed and built the entire application structure, focusing purely on functional backend logic and 
+                 secure data streaming."
+
+                techHilights="Video Streaming: Engineered the backend using Java and Spring Boot to serve video content, 
+                 implementing necessary HTTP headers and request handling to support robust streaming of MP4 files to a 
+                 web client. Stateless Architecture: Designed the application with no database persistence, making it a 
+                 stateless server focused exclusively on serving file resources and demonstrating an understanding of pure 
+                 resource delivery. First Spring Boot Project: This project served as my fundamental introduction to the Spring 
+                 Boot ecosystem, laying the groundwork for more complex projects like the URL Shortener and Web Note Application."
+
+                outcome="Solidified foundational skills in Java web development, resource serving, and utilizing Spring 
+                Boot to quickly deploy a fully functional server-side application. Provided essential learning on how to 
+                manage media and large file resources over HTTP."
+                link="https://github.com/skyjager51/Home-Media-Player"
             />
         </div>
     );
