@@ -30,7 +30,7 @@ function ProjectDetailedElement(props){
                 <p className="fade">{props.outcome}</p>
 
                 <p><FaGripLinesVertical color="#a9a8ff"/> Link</p> 
-                <a className="project-link" href={props.link}>Visit the GitHub repo here</a>
+                <a target="_blank" className="project-link" href={props.link}>Visit the GitHub repo here</a>
             </div>
 
         </div>

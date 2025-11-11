@@ -102,6 +102,43 @@ function Projects(){
                 manage media and large file resources over HTTP."
                 link="https://github.com/skyjager51/Home-Media-Player"
             />
+
+
+            <ProjectDetailedElement
+                img="../../public/portfolio.png"
+                title="PortFolio"
+                stack={["React", "Js", "Html", "CSS"]}
+                objective="To build a modern, responsive, and visually clean professional website to organize and present
+                 project case studies, technical skills, and educational background in a single, accessible location."
+
+                role="Designing the complete UI/UX and developing all frontend components from scratch."
+
+                techHilights="Frontend Framework: Utilizing React to develop a component-based, demonstrating proficiency 
+                 in modern JavaScript frameworks. Responsive Design: Implementing advanced CSS techniques to ensure the 
+                 portfolio is fully responsive and provides a consistent user experience across all devices and screen sizes."
+
+                outcome="Currently deepening knowledge of component lifecycle management, advanced React hooks, and building 
+                user interfaces with a focus on accessibility and performance optimization."
+                link="https://github.com/skyjager51/Portfolio"
+            />
+
+
+            <ProjectDetailedElement
+                img="../../public/tetrafolio.png"
+                title="PortFolio"
+                stack={["Tailwind", "Js", "Html", "Python"]}
+                objective="To build a portoflio website as an university project with 3 of my friends"
+
+                role="Desinged the Flask routing and helped in completing the UI"
+
+                techHilights="Frontend: better understanding of how the frontend works. Backend: better 
+                 understanding of how routing for web applications works. (First coding project)"
+
+                outcome="Strengthened the friendship between me and my friends and made me even more passionate
+                 about the tech world! P.S. The project is on the GitHub of one of my friends; 
+                 visit his other projects. He is a great dev!"
+                link="https://github.com/terabvte/tetrafolio"
+            />
         </div>
     );
 }
