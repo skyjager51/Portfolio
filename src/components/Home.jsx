@@ -3,6 +3,7 @@ import FrontStack from "./FrontStack";
 import About from "./About";
 import HomeProjects from "./HomeProjects";
 import HomeCertifications from "./HomeCeritifications";
+import HomeKeepInTouch from "./HomeKeepInTouch";
 
 function Home(){
     return(
@@ -11,6 +12,7 @@ function Home(){
             <About></About>
             <HomeProjects></HomeProjects>
             <HomeCertifications></HomeCertifications>
+            <HomeKeepInTouch></HomeKeepInTouch>
         </div>
     );
 }

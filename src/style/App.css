@@ -179,3 +179,7 @@ body{
   flex-wrap: wrap;
   gap: 3%;
 }
+
+#keep-in-touch-title{
+  font-size: 300%;
+}
