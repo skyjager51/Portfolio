@@ -1,4 +1,5 @@
 import React from "react";
+import lorenzoImage from "../images/Immagine_lorenzo.jpeg";
 
 function About(){
     return(
@@ -20,7 +21,7 @@ function About(){
                     modelling and printing and really relish any kind of manual work.
                 </p>
 
-                <img className="image" src="../../public/Immagine_lorenzo.jpeg" alt="image of lorenzo" />
+                <img className="image" src={lorenzoImage} alt="image of lorenzo" />
             </div>
             
         </div>

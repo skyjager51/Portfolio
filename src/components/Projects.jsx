@@ -1,11 +1,17 @@
 import React from "react";
 import ProjectDetailedElement from "./ProjectDetailedElement";
+import thirithImg from "../images/Thirith iac scanner.png";
+import urlShortenerImg from "../images/url_shrtener.png";
+import noteAppImg from "../images/note app.png";
+import homeMediaImg from "../images/home_media_player.png";
+import portfolioImg from "../images/portfolio.png";
+import tetrafolioImg from "../images/tetrafolio.png";
 
 function Projects(){
     return(
         <div className="front-stack">
             <ProjectDetailedElement
-                img="../../public/Thirith iac scanner.png"
+                img={thirithImg}
                 title="Tirith IaC Security Scanner"
                 stack={["Python", "React", "Postman", "Flask", "REST"]}
                 objective="To create an automated Security Scanner for JSON-formatted Infrastructure-as-Code (IaC)
@@ -32,7 +38,7 @@ function Projects(){
 
 
             <ProjectDetailedElement
-                img="../../public/url_shrtener.png"
+                img={urlShortenerImg}
                 title="URL Shortener"
                 stack={["Java", "SpringBoot", "MySQl", "Postman", "REST", "Js", "Html", "Hibernate", "Jpa"]}
                 objective="To develop a service that takes a long, unwieldy URL and converts it into a significantly 
@@ -57,7 +63,7 @@ function Projects(){
 
 
             <ProjectDetailedElement
-                img="../../public/note app.png"
+                img={noteAppImg}
                 title="Web Note Application"
                 stack={["Java", "SpringBoot", "MySQl", "Postman", "REST", "Js", "Html", "Hibernate", "Jpa", "Spring Security"]}
                 objective="To provide users with a fully functional, secure application where they can log in, create, view,
@@ -81,7 +87,7 @@ function Projects(){
 
 
             <ProjectDetailedElement
-                img="../../public/home_media_player.png"
+                img={homeMediaImg}
                 title="Home Media Player"
                 stack={["Java", "SpringBoot", "Js", "Html", "CSS"]}
                 objective="To create a lightweight, self-hosted application that allows users to stream MP4 video files
@@ -105,7 +111,7 @@ function Projects(){
 
 
             <ProjectDetailedElement
-                img="../../public/portfolio.png"
+                img={portfolioImg}
                 title="PortFolio"
                 stack={["React", "Js", "Html", "CSS"]}
                 objective="To build a modern, responsive, and visually clean professional website to organize and present
@@ -124,7 +130,7 @@ function Projects(){
 
 
             <ProjectDetailedElement
-                img="../../public/tetrafolio.png"
+                img={tetrafolioImg}
                 title="PortFolio"
                 stack={["Tailwind", "Js", "Html", "Python"]}
                 objective="To build a portoflio website as an university project with 3 of my friends"
