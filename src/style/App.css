@@ -215,3 +215,14 @@ body{
 .project-link:hover{
   color: rgb(145, 14, 226);
 }
+
+.terminal-container{
+  background-color: black;
+  border: 4px dotted white;
+  z-index: 10;
+  position: fixed;
+  top: 75px;
+  left: 30%;
+  height: 500px;
+  width: 40%;
+}
