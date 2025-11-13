@@ -4,8 +4,8 @@ import { FaGripLinesVertical } from "react-icons/fa";
 function ProjectDetailedElement(props){
     return(
         <div className="project-element">
-            <div className="project-image">
-                <img className="project-image" src={props.img} alt="" />
+            <div className="project-image-container">
+                <img className="project-image" src={props.img} alt="" /> 
             </div>
             <div className="project-text">
                 <h1>{props.title}</h1>

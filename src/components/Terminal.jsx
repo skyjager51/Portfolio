@@ -21,8 +21,10 @@ function Terminal(props){
 
     return(
         <div className="terminal-container" onMouseOver={createAnimaiton}>
-            <button onClick={closeTerminalFunc}>x</button>
+            <button className="terminal-button" onClick={closeTerminalFunc}>x</button>
+            <hr />
             <p>lorenzofaccio@portfolio ~ /project  nano Thank_You.txt </p>
+            <p className="nano-ui">UW PICO 5.09</p>
             <p>{descript}</p>
         </div>
     );

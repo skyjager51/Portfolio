@@ -3,7 +3,9 @@ import React from "react";
 function ProjectCard(props){
     return(
         <div className="project-card">
-            <img className="image-p" src={props.imageUrl} alt="project image" />
+            <div className="image-project-container">
+                <img className="image-p" src={props.imageUrl} alt="project image" />
+            </div>
             <div className="internal-projectcard-text">
                 <h2>{props.name}</h2>
                 <hr />
