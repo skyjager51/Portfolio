@@ -23,8 +23,8 @@ function App() {
     <div>
       <Header sendFunc={displayTerminal}/>
       {terminal && <Terminal closeTerminal={closeTerminal}/>}
-
       <Routes>
+        <Route path='/' element={<Home/>} />
         <Route path='/Home' element={<Home/>}></Route>
         <Route path='/Projects' element={<Projects/>}></Route>
         <Route path='/Contact' element={<Contact/>}></Route>
