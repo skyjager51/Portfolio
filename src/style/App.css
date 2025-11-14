@@ -321,6 +321,10 @@ body::-webkit-scrollbar{
     margin-left: 15%;
   } 
 
+  .image-project-container{
+    height: 150px;
+  }
+
   .project-space{
     flex-direction: column;
   }
