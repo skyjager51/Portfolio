@@ -10,7 +10,7 @@ function HomeCertifications(){
             <div className="cert-stack">
                 <CertificationCard 
                     img= <FaAws size={90} color="#a9a8ff"/>
-                    name="AWS Cloud Practitioner"
+                    name="AWS CCP"
                     link="https://www.credly.com/badges/5180104c-7364-4ef1-ac00-6717cb7590c1/public_url"
                 />
 

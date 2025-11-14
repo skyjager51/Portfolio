@@ -5,7 +5,7 @@ function FrontStack(){
     return(
         <div className="front-stack">
             <h1> 
-                <span className="phrase">Hey there!, I'm-</span> <br />
+                <span className="phrase greet">Hey there!, I'm-</span> <br />
                 <span className="name">Lorenzo Faccio.</span>
             </h1>
 

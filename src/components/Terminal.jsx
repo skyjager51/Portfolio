@@ -13,7 +13,7 @@ function Terminal(props){
     function createAnimaiton(){
         if(write){
             for(let i = 0; i < description.length; i++){
-                setTimeout(() => {setDescript(x => x + description.charAt(i))}, 50 * i);
+                setTimeout(() => {setDescript(x => x + description.charAt(i))}, 35 * i);
             }
             setWrite(false);
         }

@@ -16,7 +16,7 @@ function Header(props){
     return (
         <div>
             <div className="header">
-                <h1 onClick={toParent}>{name}</h1>
+                <h1 className="page-indicator" onClick={toParent}>{name}</h1>
                 <ul className="routes">
                     <Link to='/Home'><li onClick={changeName} data-name="{~ %}">Home</li></Link>
                     <Link to='/Projects'><li onClick={changeName} data-name="{~/projects %}">Projects</li></Link>
