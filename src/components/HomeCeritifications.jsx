@@ -1,6 +1,6 @@
 import React from "react";
 import CertificationCard from "./CertificationCard";
-import { FaAws, FaJava, FaPython } from "react-icons/fa";
+import { FaAws, FaJava, FaPython, FaNode } from "react-icons/fa";
 import { BiLogoSpringBoot } from "react-icons/bi";
 
 function HomeCertifications(){
@@ -30,6 +30,12 @@ function HomeCertifications(){
                     img= <FaPython size={90} color="#a9a8ff"/>
                     name="Python"
                     link="https://www.udemy.com/certificate/UC-6dc6df64-f52b-49d4-8319-8cbccbbb88f5/"
+                />
+
+                <CertificationCard
+                    img= <FaNode size={90} color="#a9a8ff"/>
+                    name="Node & React"
+                    link="https://www.udemy.com/certificate/UC-98f1c831-959d-4e06-8095-1bebdaeea5aa/"
                 />
             </div>
         </div>

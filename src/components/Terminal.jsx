@@ -2,7 +2,7 @@ import React from "react";
 
 function Terminal(props){
 
-    const description = "Thank you for having visited my Portfolio website! Don't hesitate to contact me for any queston or proposal!";
+    const description = "Thank you for having visited my Portfolio website! Don't hesitate to contact me for any question or proposal!";
     const [descript, setDescript] = React.useState("");
     const [write, setWrite] = React.useState(true);
 
