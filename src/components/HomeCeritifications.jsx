@@ -37,6 +37,12 @@ function HomeCertifications(){
                     name="Node & React"
                     link="https://www.udemy.com/certificate/UC-98f1c831-959d-4e06-8095-1bebdaeea5aa/"
                 />
+
+                <CertificationCard 
+                    img= <FaAws size={90} color="#a9a8ff"/>
+                    name="AWS DVA"
+                    link="https://www.credly.com/badges/33987ba3-05f5-4483-a3de-757383614afb/public_url"
+                />
             </div>
         </div>
     );
